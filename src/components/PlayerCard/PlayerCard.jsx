@@ -3,7 +3,7 @@ import userImg from "../../assets/user-1.png";
 import flagImg from "../../assets/report-1.png";
 
 const PlayerCard = ({ player }) => {
-  console.log(player);
+  //   console.log(player);
   const {
     playerImage,
     playerName,
