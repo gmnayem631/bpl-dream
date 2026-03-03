@@ -12,6 +12,7 @@ const playersPromise = fetch("./players.json").then((response) =>
 
 function App() {
   const [toggle, setToggle] = useState(true);
+  const [availableBalance, setAvailableBalance] = useState(100000);
 
   const handleToggle = () => {
     console.log("toggled");
@@ -20,12 +21,12 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <Hero></Hero>
+      <Navbar availableBalance={availableBalance}></Navbar>
+      {/* <Hero></Hero> */}
 
       <div className="max-w-7xl mx-auto flex justify-between items-center text-xl font-bold mt-10">
         <h2>Available Players</h2>
-        <div className="flex">
+        <div className="flex gap-2">
           <button
             onClick={handleToggle}
             className={`font-bold btn py-3 px-4 rounded-l-2xl border-r-0 ${toggle ? "bg-[#E7FE29]" : ""}`}
@@ -43,7 +44,11 @@ function App() {
 
       {toggle ? (
         <Suspense fallback={<Loader></Loader>}>
-          <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
+          <AvailablePlayers
+            playersPromise={playersPromise}
+            availableBalance={availableBalance}
+            setAvailableBalance={setAvailableBalance}
+          ></AvailablePlayers>
         </Suspense>
       ) : (
         <SelectedPlayers></SelectedPlayers>

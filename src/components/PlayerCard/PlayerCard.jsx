@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import userImg from "../../assets/user-1.png";
 import flagImg from "../../assets/report-1.png";
 
-const PlayerCard = ({ player }) => {
-  //   console.log(player);
+const PlayerCard = ({ player, availableBalance, setAvailableBalance }) => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelected = () => {
+    setIsSelected(!isSelected);
+  };
   const {
     playerImage,
     playerName,
@@ -40,8 +44,19 @@ const PlayerCard = ({ player }) => {
           <span>{bowlingStyle}</span>
         </div>
         <div className="card-actions items-center justify-between mt-4">
-          <p className="font-bold">Price: {price}</p>
-          <button className="btn">Choose Player</button>
+          <p className="font-bold">Price: ${price}</p>
+          <button
+            disabled={isSelected ? true : false}
+            onClick={() => {
+              price > availableBalance && alert("Not Enough Balance");
+
+              handleSelected();
+              setAvailableBalance(availableBalance - price);
+            }}
+            className="btn"
+          >
+            {isSelected ? "Selected" : "Choose Player"}
+          </button>
         </div>
       </div>
     </div>

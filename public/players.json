@@ -6,7 +6,7 @@
     "playingRole": "Allrounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": "$75,000"
+    "price": 75000
   },
   {
     "playerImage": "https://i.ibb.co.com/HDcZg2wj/tamim-iqbal.webp",
@@ -15,7 +15,7 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": "$60,000"
+    "price": 60000
   },
   {
     "playerImage": "https://i.ibb.co.com/P7jNQsT/mushfiqur-rahim.webp",
@@ -24,7 +24,7 @@
     "playingRole": "Wicket Keeper",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": "$70,000"
+    "price": 70000
   },
   {
     "playerImage": "https://i.ibb.co.com/M5s96wrm/andre-russell.webp",
@@ -33,7 +33,7 @@
     "playingRole": "Allrounder",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": "$120,000"
+    "price": 120000
   },
   {
     "playerImage": "https://i.ibb.co.com/XxHMHQG7/david-miller.webp",
@@ -42,7 +42,7 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": "$100,000"
+    "price": 100000
   },
   {
     "playerImage": "https://i.ibb.co.com/cSpr0zjh/faf-du-plessis.png",
@@ -51,7 +51,7 @@
     "playingRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": "$110,000"
+    "price": 110000
   },
   {
     "playerImage": "https://i.ibb.co.com/PnMy6gX/rashid-khan.webp",
@@ -60,7 +60,7 @@
     "playingRole": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": "$130,000"
+    "price": 130000
   },
   {
     "playerImage": "https://i.ibb.co.com/bjCpRr6q/chris-gayle.webp",
@@ -69,7 +69,7 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "$90,000"
+    "price": 90000
   },
   {
     "playerImage": "https://i.ibb.co.com/W4Y4V6y7/mustafizur-rahman.webp",
@@ -78,7 +78,7 @@
     "playingRole": "Bowler",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": "$80,000"
+    "price": 80000
   },
   {
     "playerImage": "https://i.ibb.co.com/VYgQSNFF/imrul-kayes.jpg",
@@ -87,7 +87,7 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": "$40,000"
+    "price": 40000
   },
   {
     "playerImage": "https://i.ibb.co.com/xKLqpB41/thisara-perera.jpg",
@@ -96,7 +96,7 @@
     "playingRole": "Allrounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm medium-fast",
-    "price": "$85,000"
+    "price": 85000
   },
   {
     "playerImage": "https://i.ibb.co.com/TQWfsr0/litton-das.jpg",
@@ -105,6 +105,6 @@
     "playingRole": "Wicket Keeper",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": "$65,000"
+    "price": 65000
   }
 ]
