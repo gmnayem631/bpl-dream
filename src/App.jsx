@@ -1,5 +1,6 @@
 import { Suspense, useState } from "react";
 import "./App.css";
+import { ToastContainer } from "react-toastify";
 import AvailablePlayers from "./components/AvailablePlayers/AvailablePlayers";
 import Navbar from "./components/Navbar/Navbar";
 import SelectedPlayers from "./components/SelectedPlayers/SelectedPlayers";
@@ -12,7 +13,7 @@ const playersPromise = fetch("./players.json").then((response) =>
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(500000);
+  const [availableBalance, setAvailableBalance] = useState(6000000);
   const [purchasedPlayers, setPurchasedPlayers] = useState([]);
 
   const handleToggle = () => {
@@ -23,7 +24,7 @@ function App() {
     const filteredData = purchasedPlayers.filter(
       (ply) => ply.playerName !== p.playerName,
     );
-    console.log(filteredData);
+
     setPurchasedPlayers(filteredData);
     setAvailableBalance(availableBalance + p.price);
   };
@@ -35,7 +36,9 @@ function App() {
 
       <div className="max-w-7xl mx-auto flex justify-between items-center mt-10">
         <h2 className="text-2xl font-bold">
-          {toggle ? "Available Players" : "Selected Players"}
+          {toggle
+            ? "Available Players"
+            : `Selected Players (${purchasedPlayers.length}/6)`}
         </h2>
         <div className="flex gap-2">
           <button
@@ -69,6 +72,8 @@ function App() {
           purchasedPlayers={purchasedPlayers}
         ></SelectedPlayers>
       )}
+
+      <ToastContainer />
     </>
   );
 }

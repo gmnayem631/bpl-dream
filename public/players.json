@@ -7,7 +7,8 @@
     "playingRole": "Allrounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 75000
+    "price": 75000,
+    "rating": 9.5
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": 60000
+    "price": 60000,
+    "rating": 8.5
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "playingRole": "Wicket Keeper",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": 70000
+    "price": 70000,
+    "rating": 8.5
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "playingRole": "Allrounder",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 120000
+    "price": 120000,
+    "rating": 9.5
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": 100000
+    "price": 100000,
+    "rating": 9
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "playingRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 110000
+    "price": 110000,
+    "rating": 9
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "playingRole": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 130000
+    "price": 130000,
+    "rating": 9.5
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 90000
+    "price": 90000,
+    "rating": 9
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "playingRole": "Bowler",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": 80000
+    "price": 80000,
+    "rating": 8.5
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "N/A",
-    "price": 40000
+    "price": 40000,
+    "rating": 7
   },
   {
     "id": 11,
@@ -107,7 +117,8 @@
     "playingRole": "Allrounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm medium-fast",
-    "price": 85000
+    "price": 85000,
+    "rating": 8
   },
   {
     "id": 12,
@@ -117,6 +128,7 @@
     "playingRole": "Wicket Keeper",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "N/A",
-    "price": 65000
+    "price": 65000,
+    "rating": 8.5
   }
 ]
