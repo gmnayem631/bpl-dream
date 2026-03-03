@@ -1,0 +1,110 @@
+[
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Shakib_Al_Hasan_2018.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Allrounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": "$75,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Tamim_Iqbal_2018.jpg",
+    "playerName": "Tamim Iqbal",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "$60,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Mushfiqur_Rahim_2018.jpg",
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicket Keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "$70,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Andre_Russell_2019.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playingRole": "Allrounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": "$120,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/David_Miller_2018.jpg",
+    "playerName": "David Miller",
+    "playerCountry": "South Africa",
+    "playingRole": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "$100,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Faf_du_Plessis_2019.jpg",
+    "playerName": "Faf du Plessis",
+    "playerCountry": "South Africa",
+    "playingRole": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": "$110,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Rashid_Khan_2018.jpg",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playingRole": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": "$130,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Chris_Gayle_2015.jpg",
+    "playerName": "Chris Gayle",
+    "playerCountry": "West Indies",
+    "playingRole": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "$90,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Mustafizur_Rahman_2019.jpg",
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Bowler",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": "$80,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Imrul_Kayes_2018.jpg",
+    "playerName": "Imrul Kayes",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "$40,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Thisara_Perera_2014.jpg",
+    "playerName": "Thisara Perera",
+    "playerCountry": "Sri Lanka",
+    "playingRole": "Allrounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm medium-fast",
+    "price": "$85,000"
+  },
+  {
+    "playerImage": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Liton_Das_2018.jpg",
+    "playerName": "Liton Das",
+    "playerCountry": "Bangladesh",
+    "playingRole": "Wicket Keeper",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "$65,000"
+  }
+]
