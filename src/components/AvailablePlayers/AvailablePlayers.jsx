@@ -5,6 +5,8 @@ const AvailablePlayers = ({
   playersPromise,
   availableBalance,
   setAvailableBalance,
+  purchasedPlayers,
+  setPurchasedPlayers,
 }) => {
   const playerData = use(playersPromise);
 
@@ -18,6 +20,8 @@ const AvailablePlayers = ({
               player={player}
               availableBalance={availableBalance}
               setAvailableBalance={setAvailableBalance}
+              purchasedPlayers={purchasedPlayers}
+              setPurchasedPlayers={setPurchasedPlayers}
             ></PlayerCard>
           );
         })}

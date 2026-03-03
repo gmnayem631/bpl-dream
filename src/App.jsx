@@ -12,8 +12,9 @@ const playersPromise = fetch("./players.json").then((response) =>
 
 function App() {
   const [toggle, setToggle] = useState(true);
-  const [availableBalance, setAvailableBalance] = useState(100000);
-
+  const [availableBalance, setAvailableBalance] = useState(500000);
+  const [purchasedPlayers, setPurchasedPlayers] = useState([]);
+  console.log(purchasedPlayers);
   const handleToggle = () => {
     console.log("toggled");
     setToggle(!toggle);
@@ -24,8 +25,10 @@ function App() {
       <Navbar availableBalance={availableBalance}></Navbar>
       {/* <Hero></Hero> */}
 
-      <div className="max-w-7xl mx-auto flex justify-between items-center text-xl font-bold mt-10">
-        <h2>Available Players</h2>
+      <div className="max-w-7xl mx-auto flex justify-between items-center mt-10">
+        <h2 className="text-2xl font-bold">
+          {toggle ? "Available Players" : "Selected Players"}
+        </h2>
         <div className="flex gap-2">
           <button
             onClick={handleToggle}
@@ -37,7 +40,7 @@ function App() {
             onClick={handleToggle}
             className={`btn py-3 font-bold px-4 rounded-r-2xl border-l-0 ${toggle ? "" : "bg-[#E7FE29]"}`}
           >
-            Selected <span>(0)</span>
+            Selected <span>({purchasedPlayers.length})</span>
           </button>
         </div>
       </div>
@@ -48,10 +51,12 @@ function App() {
             playersPromise={playersPromise}
             availableBalance={availableBalance}
             setAvailableBalance={setAvailableBalance}
+            purchasedPlayers={purchasedPlayers}
+            setPurchasedPlayers={setPurchasedPlayers}
           ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers></SelectedPlayers>
+        <SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
       )}
     </>
   );
