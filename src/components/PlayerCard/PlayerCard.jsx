@@ -10,7 +10,7 @@ const PlayerCard = ({
   setPurchasedPlayers,
 }) => {
   const [isSelected, setIsSelected] = useState(false);
-  //   console.log(player);
+
   const handleSelected = (player) => {
     if (price > availableBalance) {
       alert("Not Enough Balance");

@@ -1,6 +1,9 @@
 import React from "react";
 import deleteImg from "../../assets/delete.png";
-const SelectedPlayerDetail = ({ singlePlayer }) => {
+const SelectedPlayerDetail = ({ singlePlayer, removePlayer }) => {
+  const handleRemove = () => {
+    removePlayer(singlePlayer);
+  };
   const { playerImage, playerName, playingRole } = singlePlayer;
   return (
     <div className="flex justify-between items-center border border-gray-400 p-3 rounded-xl">
@@ -11,7 +14,7 @@ const SelectedPlayerDetail = ({ singlePlayer }) => {
           <p className="text-[#131313]">{playingRole}</p>
         </div>
       </div>
-      <div className="cursor-pointer">
+      <div onClick={handleRemove} className="cursor-pointer">
         <img src={deleteImg} alt="" />
       </div>
     </div>

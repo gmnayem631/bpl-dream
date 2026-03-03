@@ -1,8 +1,7 @@
 import React from "react";
 import SelectedPlayerDetail from "../SelectedPlayerDetail/SelectedPlayerDetail";
 
-const SelectedPlayers = ({ purchasedPlayers }) => {
-  // console.log(purchasedPlayers);
+const SelectedPlayers = ({ purchasedPlayers, removePlayer }) => {
   return (
     <div className="max-w-7xl mx-auto my-10">
       {/* cards */}
@@ -11,6 +10,7 @@ const SelectedPlayers = ({ purchasedPlayers }) => {
           return (
             <SelectedPlayerDetail
               key={idx}
+              removePlayer={removePlayer}
               singlePlayer={singlePlayer}
             ></SelectedPlayerDetail>
           );

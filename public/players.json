@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "playerImage": "https://i.ibb.co.com/60jfCmPJ/shakib-al-hasan.png",
     "playerName": "Shakib Al Hasan",
     "playerCountry": "Bangladesh",
@@ -9,6 +10,7 @@
     "price": 75000
   },
   {
+    "id": 2,
     "playerImage": "https://i.ibb.co.com/HDcZg2wj/tamim-iqbal.webp",
     "playerName": "Tamim Iqbal",
     "playerCountry": "Bangladesh",
@@ -18,6 +20,7 @@
     "price": 60000
   },
   {
+    "id": 3,
     "playerImage": "https://i.ibb.co.com/P7jNQsT/mushfiqur-rahim.webp",
     "playerName": "Mushfiqur Rahim",
     "playerCountry": "Bangladesh",
@@ -27,6 +30,7 @@
     "price": 70000
   },
   {
+    "id": 4,
     "playerImage": "https://i.ibb.co.com/M5s96wrm/andre-russell.webp",
     "playerName": "Andre Russell",
     "playerCountry": "West Indies",
@@ -36,6 +40,7 @@
     "price": 120000
   },
   {
+    "id": 5,
     "playerImage": "https://i.ibb.co.com/XxHMHQG7/david-miller.webp",
     "playerName": "David Miller",
     "playerCountry": "South Africa",
@@ -45,6 +50,7 @@
     "price": 100000
   },
   {
+    "id": 6,
     "playerImage": "https://i.ibb.co.com/cSpr0zjh/faf-du-plessis.png",
     "playerName": "Faf du Plessis",
     "playerCountry": "South Africa",
@@ -54,6 +60,7 @@
     "price": 110000
   },
   {
+    "id": 7,
     "playerImage": "https://i.ibb.co.com/PnMy6gX/rashid-khan.webp",
     "playerName": "Rashid Khan",
     "playerCountry": "Afghanistan",
@@ -63,6 +70,7 @@
     "price": 130000
   },
   {
+    "id": 8,
     "playerImage": "https://i.ibb.co.com/bjCpRr6q/chris-gayle.webp",
     "playerName": "Chris Gayle",
     "playerCountry": "West Indies",
@@ -72,6 +80,7 @@
     "price": 90000
   },
   {
+    "id": 9,
     "playerImage": "https://i.ibb.co.com/W4Y4V6y7/mustafizur-rahman.webp",
     "playerName": "Mustafizur Rahman",
     "playerCountry": "Bangladesh",
@@ -81,6 +90,7 @@
     "price": 80000
   },
   {
+    "id": 10,
     "playerImage": "https://i.ibb.co.com/VYgQSNFF/imrul-kayes.jpg",
     "playerName": "Imrul Kayes",
     "playerCountry": "Bangladesh",
@@ -90,6 +100,7 @@
     "price": 40000
   },
   {
+    "id": 11,
     "playerImage": "https://i.ibb.co.com/xKLqpB41/thisara-perera.jpg",
     "playerName": "Thisara Perera",
     "playerCountry": "Sri Lanka",
@@ -99,6 +110,7 @@
     "price": 85000
   },
   {
+    "id": 12,
     "playerImage": "https://i.ibb.co.com/TQWfsr0/litton-das.jpg",
     "playerName": "Liton Das",
     "playerCountry": "Bangladesh",

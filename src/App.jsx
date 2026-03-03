@@ -14,10 +14,18 @@ function App() {
   const [toggle, setToggle] = useState(true);
   const [availableBalance, setAvailableBalance] = useState(500000);
   const [purchasedPlayers, setPurchasedPlayers] = useState([]);
-  console.log(purchasedPlayers);
+
   const handleToggle = () => {
-    console.log("toggled");
     setToggle(!toggle);
+  };
+
+  const removePlayer = (p) => {
+    const filteredData = purchasedPlayers.filter(
+      (ply) => ply.playerName !== p.playerName,
+    );
+    console.log(filteredData);
+    setPurchasedPlayers(filteredData);
+    setAvailableBalance(availableBalance + p.price);
   };
 
   return (
@@ -56,7 +64,10 @@ function App() {
           ></AvailablePlayers>
         </Suspense>
       ) : (
-        <SelectedPlayers purchasedPlayers={purchasedPlayers}></SelectedPlayers>
+        <SelectedPlayers
+          removePlayer={removePlayer}
+          purchasedPlayers={purchasedPlayers}
+        ></SelectedPlayers>
       )}
     </>
   );
