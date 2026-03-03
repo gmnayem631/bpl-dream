@@ -14,7 +14,7 @@
     "playerCountry": "Bangladesh",
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
+    "bowlingStyle": "N/A",
     "price": "$60,000"
   },
   {
@@ -23,7 +23,7 @@
     "playerCountry": "Bangladesh",
     "playingRole": "Wicket Keeper",
     "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
+    "bowlingStyle": "N/A",
     "price": "$70,000"
   },
   {
@@ -41,7 +41,7 @@
     "playerCountry": "South Africa",
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
+    "bowlingStyle": "N/A",
     "price": "$100,000"
   },
   {
@@ -86,7 +86,7 @@
     "playerCountry": "Bangladesh",
     "playingRole": "Batsman",
     "battingStyle": "Left-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
+    "bowlingStyle": "N/A",
     "price": "$40,000"
   },
   {
@@ -104,7 +104,7 @@
     "playerCountry": "Bangladesh",
     "playingRole": "Wicket Keeper",
     "battingStyle": "Right-hand bat",
-    "bowlingStyle": "Right-arm offbreak",
+    "bowlingStyle": "N/A",
     "price": "$65,000"
   }
 ]
